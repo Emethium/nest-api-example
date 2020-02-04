@@ -1,0 +1,25 @@
+# Development
+.vscode
+
+# Project metadata
+*.md
+*.png
+
+# Environment
+*.env
+*env
+
+# Log files
+*.log
+
+# Docker
+*Dockerfile*
+docker-compose.yml
+
+# Metrics and tests
+tmp
+temp
+
+# Binaries
+bin/cadvisor
+bin/monitor

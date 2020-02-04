@@ -1,0 +1,12 @@
+# package directories
+node_modules
+jspm_packages
+
+# Environment files
+.env
+
+# logging
+*.log
+
+# other shenanigans
+.vscode/*
