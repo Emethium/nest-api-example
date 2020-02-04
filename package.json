@@ -1,0 +1,48 @@
+{
+  "name": "nest-api-example",
+  "version": "0.0.1",
+  "description": "Example Node API + TypeORM project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect=0.0.0.0 -w src/ src/index.js",
+    "debug": "nodemon --inspect-brk=0.0.0.0 -w src/ src/index.js",
+    "docs": "jsdoc -c jsdoc.json src/**/*.js src/*.js",
+    "docs:watch": "nodemon --exec \"jsdoc -c jsdoc.json src/**/*.js src/*.js && http-server -p 2222 -c-1 docs/\" -w src/ src/index.js",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emethium/nest-api-example.git"
+  },
+  "author": "Nikolas Serafini <nikolas.serafini@gmail.com>",
+  "private": true,
+  "contributors": [
+    "Nikolas Serafini <nikolas.serafini@zrp.com.br>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Emethium/nest-api-example/issues"
+  },
+  "homepage": "https://github.com/Emethium/nest-api-example",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "docdash": "^1.1.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jsdoc": "^3.6.3",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
