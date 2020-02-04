@@ -35,4 +35,4 @@ $ npm run start:dev
 - {/entities, GET}: list of all entities created
 - {/entities/create, POST}: entity creation path
 - {/entities/:id/update, PUT}: entity update path
-- {/entities/:id/delete, DELETE}: entyty deletion path
+- {/entities/:id/delete, DELETE}: entity deletion path
